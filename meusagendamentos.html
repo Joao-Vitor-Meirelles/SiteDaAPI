@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Agendamentos - PetAmigos</title>
+    <link rel="stylesheet" href="styles/meusagendamentos.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="titulo">Meus Agendamentos</h1>
+
+        <form id="form-meusagendamentos"> 
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+            
+            <button type="button" id="btnPesquisar">Pesquisar</button><br><br>
+
+            <div id="lista-agendamentos">
+                </div>
+
+            <button type="submit">Confirmar Alteração</button>
+        </form>
+    </div>
+
+    <script src="js/meusagendamentos.js"></script> 
+</body>
+</html>

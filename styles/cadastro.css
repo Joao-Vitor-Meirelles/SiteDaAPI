@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/teladefundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px; /* Aumentado */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    margin-top: 50px; /* Adicionado */
+}
+
+.titulo {
+    text-align: center;
+    color: #42aa33; /* Cor verde padrão */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px; /* Aumentado */
+}
+
+.form-cadastro {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 15px 0; /* Aumentado */
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #42aa33; /* Cor verde padrão */
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px; /* Adicionado */
+}
